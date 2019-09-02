@@ -41,7 +41,7 @@ function deleteOrTick(e) {
 	}
 }
 
-// delete task
+// delete tast
 function deleteTask(e) {
 	let remove = e.target.parentNode;
 	let parentNode = remove.parentNode;
@@ -53,7 +53,7 @@ function tickTask(e) {
 	const task = e.target.nextSibling;
 	if(e.target.checked) {
 		task.style.textDecoration = 'line-through';
-		task.style.color = '#ff0000';
+		task.style.color = '#ffcdab';
 	}else {
 		task.style.textDecoration = 'none';
 		task.style.color = '#2f4f4f';
