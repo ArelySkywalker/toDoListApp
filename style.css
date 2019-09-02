@@ -58,21 +58,31 @@ html{
 	padding-top: 15px;
 	font-size: 1.3em;
 	color: #2f4f4f;
+	position: relative;
   }
   a{
 	float: right;
 	text-align: right;
-	color: #ffa45c;
+	color: #5d5d5a;
 	font-size: 1.2em;
 	cursor: pointer;
   }
   .delete{
-	background-color: #ffa45c;
-	padding: 0px 3px 0px 3px;
+	padding: 4.6px 9.8px;
+	background: #ffa45c;
+	border-radius: 100%;
 	color: #fff;
 	cursor: pointer;
+	font-size: 20px;
+	line-height: 20px;
+	position: absolute;
+	right: 0;
   }
-  
+
+  .delete:hover {
+	  background: #5d5d5a;
+  }
+
   @media (max-width: 500px) {
 	.main{
 	  margin: auto;
